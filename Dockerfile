@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.26.0
+ENV VERSION=0.26.1
 
 RUN gem install hx --version ${VERSION} --no-format-exec
 
